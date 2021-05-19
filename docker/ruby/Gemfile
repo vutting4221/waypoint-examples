@@ -2,22 +2,22 @@ source 'https://rubygems.org'
 ruby '>= 2.3.5', '< 2.8'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails'
+gem 'coffee-rails', '>= 5.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 gem 'bootsnap', require: false
 gem 'listen'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
